@@ -12,7 +12,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.panopto.eu/Panopto/Pages/Viewer.aspx?id=*"],
+      "matches": ["*://*.panopto.*/Panopto/Pages/Viewer.aspx?id=*"],
       "js": ["main.js"],
       "run_at": "document_idle"
     }
